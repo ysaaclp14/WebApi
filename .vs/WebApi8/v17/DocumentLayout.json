@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\C-JOVEM-P359\\Desktop\\C#\\WebApi8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{459234A3-6110-4C22-A0C3-E6E3CE87A9B4}|WebApi8\\WebApi8.csproj|c:\\users\\c-jovem-p359\\desktop\\c#\\webapi8\\webapi8\\services\\livro\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459234A3-6110-4C22-A0C3-E6E3CE87A9B4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\services\\livro\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459234A3-6110-4C22-A0C3-E6E3CE87A9B4}|WebApi8\\WebApi8.csproj|c:\\users\\c-jovem-p359\\desktop\\c#\\webapi8\\webapi8\\services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459234A3-6110-4C22-A0C3-E6E3CE87A9B4}|WebApi8\\WebApi8.csproj|solutionrelative:webapi8\\services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutorService.cs",
+              "DocumentMoniker": "C:\\Users\\C-JOVEM-P359\\Desktop\\C#\\WebApi8\\WebApi8\\Services\\Autor\\AutorService.cs",
+              "RelativeDocumentMoniker": "WebApi8\\Services\\Autor\\AutorService.cs",
+              "ToolTip": "C:\\Users\\C-JOVEM-P359\\Desktop\\C#\\WebApi8\\WebApi8\\Services\\Autor\\AutorService.cs",
+              "RelativeToolTip": "WebApi8\\Services\\Autor\\AutorService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T18:42:00.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LivroService.cs",
+              "DocumentMoniker": "C:\\Users\\C-JOVEM-P359\\Desktop\\C#\\WebApi8\\WebApi8\\Services\\Livro\\LivroService.cs",
+              "RelativeDocumentMoniker": "WebApi8\\Services\\Livro\\LivroService.cs",
+              "ToolTip": "C:\\Users\\C-JOVEM-P359\\Desktop\\C#\\WebApi8\\WebApi8\\Services\\Livro\\LivroService.cs",
+              "RelativeToolTip": "WebApi8\\Services\\Livro\\LivroService.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAA/wMUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T18:41:23.229Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
