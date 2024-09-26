@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "WebApi8.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioCriacaoDto",
+        "Type": "WebApi8.Dto.Usuario.UsuarioCriacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApi8.Controllers.AutorController",
     "Method": "BuscarAutorPorId",
     "RelativePath": "api/Autor/BuscarAutorPorId/{idAutor}",

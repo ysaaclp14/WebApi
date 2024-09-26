@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using WebApi8.Data;
+using WebApi8.Services.Auth;
 using WebApi8.Services.Autor;
 using WebApi8.Services.Livro;
+using WebApi8.Services.Senha;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,8 +15,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IAutorInterface, AutorService>();
-
 builder.Services.AddScoped<ILivroInterface, LivroService>();
+builder.Services.AddScoped<IAuthInterface, AuthService>();
+builder.Services.AddScoped<ISenhaInterface, SenhaService>();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 {

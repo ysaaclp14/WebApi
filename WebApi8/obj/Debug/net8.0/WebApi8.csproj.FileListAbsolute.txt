@@ -134,3 +134,4 @@ C:\Users\C-JOVEM-P359\Desktop\C#\WebApi8\WebApi8\obj\Debug\net8.0\refint\WebApi8
 C:\Users\C-JOVEM-P359\Desktop\C#\WebApi8\WebApi8\obj\Debug\net8.0\WebApi8.pdb
 C:\Users\C-JOVEM-P359\Desktop\C#\WebApi8\WebApi8\obj\Debug\net8.0\WebApi8.genruntimeconfig.cache
 C:\Users\C-JOVEM-P359\Desktop\C#\WebApi8\WebApi8\obj\Debug\net8.0\ref\WebApi8.dll
+C:\Users\C-JOVEM-P359\Desktop\C#\WebApi8\WebApi8\obj\Debug\net8.0\WebApi8.sourcelink.json
