@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApi8.Dto.Autor;
 using WebApi8.Models;
@@ -7,6 +9,7 @@ using WebApi8.Services.Autor;
 namespace WebApi8.Controllers
 {
     [Route("api/[controller]")]
+    [EnableCors("MyPolicy")]
     [ApiController]
     public class AutorController : ControllerBase
     {
@@ -15,7 +18,7 @@ namespace WebApi8.Controllers
         {
             _autorInterface = autorInterface;
         }
-
+        
         [HttpGet("ListarAutores")]
         public async Task<ActionResult<ResponseModel<List<AutorModel>>>> ListarAutores()
         {

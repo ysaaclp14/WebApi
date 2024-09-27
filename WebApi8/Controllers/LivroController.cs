@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApi8.Dto.Livro;
 using WebApi8.Models;
@@ -7,6 +9,7 @@ using WebApi8.Services.Livro;
 namespace WebApi8.Controllers
 {
     [Route("api/[controller]")]
+    [EnableCors("MyPolicy")]
     [ApiController]
     public class LivroController : ControllerBase
     {
@@ -15,7 +18,7 @@ namespace WebApi8.Controllers
         {
             _livroInterface = livroInterface;
         }
-
+        
         [HttpGet("ListarLivros")]
         public async Task<ActionResult<ResponseModel<List<LivroModel>>>> ListarLivros()
         {

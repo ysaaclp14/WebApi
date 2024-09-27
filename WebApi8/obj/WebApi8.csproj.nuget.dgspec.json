@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\C-JOVEM-P359\\Desktop\\C#\\WebApi8\\WebApi8\\WebApi8.csproj": {}
+    "C:\\Users\\ysaac\\OneDrive\\Área de Trabalho\\C#\\WebApi\\WebApi8\\WebApi8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\C-JOVEM-P359\\Desktop\\C#\\WebApi8\\WebApi8\\WebApi8.csproj": {
+    "C:\\Users\\ysaac\\OneDrive\\Área de Trabalho\\C#\\WebApi\\WebApi8\\WebApi8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\C-JOVEM-P359\\Desktop\\C#\\WebApi8\\WebApi8\\WebApi8.csproj",
+        "projectUniqueName": "C:\\Users\\ysaac\\OneDrive\\Área de Trabalho\\C#\\WebApi\\WebApi8\\WebApi8.csproj",
         "projectName": "WebApi8",
-        "projectPath": "C:\\Users\\C-JOVEM-P359\\Desktop\\C#\\WebApi8\\WebApi8\\WebApi8.csproj",
-        "packagesPath": "C:\\Users\\C-JOVEM-P359\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\C-JOVEM-P359\\Desktop\\C#\\WebApi8\\WebApi8\\obj\\",
+        "projectPath": "C:\\Users\\ysaac\\OneDrive\\Área de Trabalho\\C#\\WebApi\\WebApi8\\WebApi8.csproj",
+        "packagesPath": "C:\\Users\\ysaac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ysaac\\OneDrive\\Área de Trabalho\\C#\\WebApi\\WebApi8\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\C-JOVEM-P359\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ysaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,6 +46,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -73,6 +77,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -94,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
